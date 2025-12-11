@@ -32,7 +32,7 @@ Dans mon cas, le choix de la régression linéaire pour analyser ou prévoir le 
 
 # 5. Résultats obtenus et interprétation (Enjeux économiques pour le Maroc et au niveau global)
 
-Ce paragraphe présente et commente les résultats empiriques du modèle de Random Forest. Il discute la qualité des prévisions à court et moyen terme, la comparaison éventuelle avec d’autres approches, ainsi que l’analyse de l’importance des variables. Il met en évidence ce que ces résultats suggèrent sur la dynamique du chômage des jeunes et sur la capacité du modèle à capturer cette dynamique.
+Ce paragraphe présente et commente les résultats de l'analyse de la regression linéaire. Il discute la qualité des prévisions à court et moyen terme, la comparaison éventuelle avec d’autres approches, ainsi que l’analyse de l’importance des variables. Il met en évidence ce que ces résultats suggèrent sur la dynamique du chômage des jeunes et sur la capacité du modèle à capturer cette dynamique.
 
 ## Gravité du chaumage
 <img src="Gravité du chaumage.jpeg" style="height:464px;margin-right:432px"/>
@@ -54,7 +54,7 @@ Ce paragraphe présente et commente les résultats empiriques du modèle de Rand
 
 # 8. Conclusion et perspectives
 
-Ce paragraphe synthétise les principaux apports du travail, tant sur le plan empirique que méthodologique. Il rappelle les avantages et limites de la Random Forest pour la prévision du chômage des jeunes et propose des pistes d’amélioration possibles, comme l’intégration de nouvelles variables explicatives, la comparaison systématique avec d’autres modèles ou l’extension de l’analyse à d’autres indicateurs du marché du travail.
+L’exploitation du « Global Youth Unemployment Dataset » a permis de mettre en évidence les grandes tendances du chômage des jeunes au niveau mondial, en soulignant à la fois la persistance de niveaux élevés dans certaines régions et la diversité des trajectoires nationales observées sur la période couverte. L’analyse exploratoire, complétée par la mise en œuvre d’un modèle de régression linéaire, a montré qu’une partie significative de la dynamique du chômage des jeunes peut être captée par une relation linéaire entre le taux de chômage et ses déterminants ou ses valeurs passées, ce qui en fait un outil pertinent pour une première modélisation et pour la construction d’un benchmark de prévision. Cette démarche constitue une base solide pour des travaux ultérieurs qui pourraient mobiliser des modèles plus sophistiqués, intégrer des variables explicatives supplémentaires et se focaliser sur des cas nationaux spécifiques comme le Maroc, afin d’affiner la compréhension des déterminants du chômage des jeunes et de fournir aux décideurs des éléments quantitatifs plus précis pour orienter les politiques publiques.
 """
 
 with open("compte_rendu.md", "w", encoding="utf-8") as f:
